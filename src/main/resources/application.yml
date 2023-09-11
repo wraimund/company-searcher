@@ -1,0 +1,21 @@
+logging:
+  level:
+    com.lexisnexis.risk: INFO
+    org.springframework: ERROR
+    org.apache: ERROR
+    com.github.tomakehurst: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+http:
+  connection:
+    pool:
+      maxTotalConnections: 50
+      connectTimeout: 30000
+      connectionRequestTimeout: 30000
+      socketTimeout: 60000
+
+truProxyApi:
+  baseUrl: "https://exercise.trunarrative.cloud/TruProxyAPI/rest/Companies/v1"
+  companyUrl: "/Search"
+  officersUrl: "/Officers"

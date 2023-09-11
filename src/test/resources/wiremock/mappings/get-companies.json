@@ -1,0 +1,981 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/Search\\?Query=COMPANYNUMBER"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "page_number": 1,
+          "kind": "search#companies",
+          "total_results": 19,
+          "items": [
+            {
+              "company_status": "dissolved",
+              "address_snippet": "2 Frederick Street, Kings Cross, London, United Kingdom, WC1X 0ND",
+              "date_of_creation": "2022-08-25",
+              "description": "14319089 - Dissolved on 30 May 2023",
+              "links": {
+                "self": "/company/14319089"
+              },
+              "company_number": "14319089",
+              "title": "COMPANY NUMBER 14319089 LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "2",
+                "postal_code": "WC1X 0ND",
+                "country": "United Kingdom",
+                "locality": "London",
+                "address_line_1": "Frederick Street",
+                "address_line_2": "Kings Cross"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2023-05-30"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Elsley Court, 20-22 Great Titchfield Street, London, United Kingdom, W1W 8BE",
+              "date_of_creation": "2022-03-16",
+              "description": "13981020 - Dissolved on 27 December 2022",
+              "links": {
+                "self": "/company/13981020"
+              },
+              "company_number": "13981020",
+              "title": "COMPANY NUMBER 13901664 LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Elsley Court",
+                "postal_code": "W1W 8BE",
+                "country": "United Kingdom",
+                "locality": "London",
+                "address_line_1": "20-22 Great Titchfield Street"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2022-12-27"
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "4th Floor Elsley Court, 20-22 Great Titchfield Street, London, United Kingdom, W1W 8BE",
+              "date_of_creation": "2022-02-08",
+              "description": "13901664 - Incorporated on  8 February 2022",
+              "links": {
+                "self": "/company/13901664"
+              },
+              "company_number": "13901664",
+              "title": "HQ HOTELS LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "4th",
+                "postal_code": "W1W 8BE",
+                "country": "United Kingdom",
+                "locality": "London",
+                "address_line_1": "Floor Elsley Court",
+                "address_line_2": "20-22 Great Titchfield Street"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "14 Victoria Road, Tamworth, United Kingdom, B79 7HL",
+              "date_of_creation": "1988-09-16",
+              "description": "02297415 - Dissolved on  4 January 2022",
+              "links": {
+                "self": "/company/02297415"
+              },
+              "company_number": "02297415",
+              "title": "COMPANY NUMBER 02297415 LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "14",
+                "postal_code": "B79 7HL",
+                "country": "United Kingdom",
+                "locality": "Tamworth",
+                "address_line_1": "Victoria Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2022-01-04"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Pkf-Fpm Accountants Ltd, 1-3 Arthur Street, Belfast, Co. Antrim, BT1 4GA",
+              "date_of_creation": "2008-06-27",
+              "description": "NI069796 - Dissolved on 14 April 2020",
+              "links": {
+                "self": "/company/NI069796"
+              },
+              "company_number": "NI069796",
+              "title": "COMPANY NUMBER 1 LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Pkf-Fpm Accountants Ltd",
+                "postal_code": "BT1 4GA",
+                "locality": "Belfast",
+                "region": "Co. Antrim",
+                "address_line_1": "1-3 Arthur Street"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2020-04-14"
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "First Floor, 73-75 High Street, Stevenage, Hertfordshire, SG1 3HR",
+              "date_of_creation": "1997-06-20",
+              "description": "03390089 - Incorporated on 20 June 1997",
+              "links": {
+                "self": "/company/03390089"
+              },
+              "company_number": "03390089",
+              "title": "MARSDEN ENTERPRISES LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "First Floor",
+                "postal_code": "SG1 3HR",
+                "locality": "Stevenage",
+                "region": "Hertfordshire",
+                "address_line_1": "73-75 High Street"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "71 Knowl Piece, Wilbury Way, Hitchin, Herts, England, SG4 0TY",
+              "date_of_creation": "2003-02-07",
+              "description": "04659452 - Incorporated on  7 February 2003",
+              "links": {
+                "self": "/company/04659452"
+              },
+              "company_number": "04659452",
+              "title": "LIGHTSOUT COMPUTER SERVICES LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "71",
+                "postal_code": "SG4 0TY",
+                "country": "England",
+                "locality": "Hitchin",
+                "region": "Herts",
+                "address_line_1": "Knowl Piece",
+                "address_line_2": "Wilbury Way"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Bradley House 7 Five Park Business Centre Harrier Way, Exeter, Devon, England, EX2 7HU",
+              "date_of_creation": "2018-01-24",
+              "description": "11168515 - Dissolved on  7 August 2018",
+              "links": {
+                "self": "/company/11168515"
+              },
+              "company_number": "11168515",
+              "title": "COMPANY NUMBER 11168515 LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Bradley House 7 Five Park Business Centre",
+                "postal_code": "EX2 7HU",
+                "country": "England",
+                "locality": "Exeter",
+                "region": "Devon",
+                "address_line_1": "Harrier Way"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2018-08-07"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Elsley Court, 20-22 Great Titchfield Street, London, United Kingdom, W1W 8BE",
+              "date_of_creation": "1996-10-31",
+              "description": "03271821 - Dissolved on 21 December 2021",
+              "links": {
+                "self": "/company/03271821"
+              },
+              "company_number": "03271821",
+              "title": "HQ HOSPITALITY SERVICES LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Elsley Court",
+                "postal_code": "W1W 8BE",
+                "country": "United Kingdom",
+                "locality": "London",
+                "address_line_1": "20-22 Great Titchfield Street"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2021-12-21"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "East Ayton Lodge Moor Lane, East Ayton, Scarborough, North Yorkshire, England, YO13 9EW",
+              "date_of_creation": "2015-07-01",
+              "description": "09664672 - Dissolved on  5 December 2017",
+              "links": {
+                "self": "/company/09664672"
+              },
+              "company_number": "09664672",
+              "title": "COMPANY NUMBER 09664672 LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "East Ayton Lodge Moor Lane",
+                "postal_code": "YO13 9EW",
+                "country": "England",
+                "locality": "Scarborough",
+                "region": "North Yorkshire",
+                "address_line_1": "East Ayton"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2017-12-05"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Suite 108  Chase Business Centre, 39-41 Chase Side, London, England, N14 5BP",
+              "date_of_creation": "2015-05-08",
+              "description": "09580596 - Dissolved on  1 November 2016",
+              "links": {
+                "self": "/company/09580596"
+              },
+              "company_number": "09580596",
+              "title": "COMPANY NUMBER 09580596 LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Suite 108 ",
+                "postal_code": "N14 5BP",
+                "country": "England",
+                "locality": "London",
+                "address_line_1": "Chase Business Centre",
+                "address_line_2": "39-41 Chase Side"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2016-11-01"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "31  Blount Terrace, Kidderminster, Worcestershire, DY11 7AE",
+              "date_of_creation": "2015-03-14",
+              "description": "09490643 - Dissolved on 23 August 2016",
+              "links": {
+                "self": "/company/09490643"
+              },
+              "company_number": "09490643",
+              "title": "COMPANY NUMBER 09490643 CIC",
+              "company_type": "ltd",
+              "address": {
+                "premises": "31 ",
+                "postal_code": "DY11 7AE",
+                "locality": "Kidderminster",
+                "region": "Worcestershire",
+                "address_line_1": "Blount Terrace"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2016-08-23"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Dept 400  61 Praed Street, London, W2 1NS",
+              "date_of_creation": "2012-11-09",
+              "description": "08287895 - Dissolved on 26 April 2016",
+              "links": {
+                "self": "/company/08287895"
+              },
+              "company_number": "08287895",
+              "title": "COMPANY NUMBER FOUR LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Dept 400 ",
+                "postal_code": "W2 1NS",
+                "locality": "London",
+                "address_line_1": "61 Praed Street"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2016-04-26"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Marlborough House Suite 405 159 High Street Wealdstone, Harrow, Middlesex, England, HA3 5DZ",
+              "date_of_creation": "2010-09-16",
+              "description": "07377698 - Dissolved on 29 December 2015",
+              "links": {
+                "self": "/company/07377698"
+              },
+              "company_number": "07377698",
+              "title": "COMPANY NUMBER 07377698 LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Marlborough House Suite 405 159 High Street",
+                "postal_code": "HA3 5DZ",
+                "country": "England",
+                "locality": "Wealdstone, Harrow",
+                "region": "Middlesex"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2015-12-29"
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "Foresters Hall, 25 - 27 Westow Street, Crystal Palace, London, England, SE19 3RY",
+              "date_of_creation": "2015-04-24",
+              "description": "09559465 - Incorporated on 24 April 2015",
+              "links": {
+                "self": "/company/09559465"
+              },
+              "company_number": "09559465",
+              "title": "QVOICE LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Foresters Hall, 25 - 27 Westow Street",
+                "postal_code": "SE19 3RY",
+                "country": "England",
+                "locality": "London",
+                "address_line_1": "Crystal Palace"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "3  Comeragh Road, West Kensington, London, England, W14 9HP",
+              "date_of_creation": "2011-06-13",
+              "description": "07666913 - Dissolved on 22 January 2013",
+              "links": {
+                "self": "/company/07666913"
+              },
+              "company_number": "07666913",
+              "title": "COMPANY NUMBER 7666913 LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "3 ",
+                "postal_code": "W14 9HP",
+                "country": "England",
+                "locality": "West Kensington",
+                "region": "London",
+                "address_line_1": "Comeragh Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2013-01-22"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "TENON RECOVERY, The Aquarium Building 1-7 King Street, Reading, RG1 2AN",
+              "date_of_creation": "1963-03-22",
+              "description": "00754578 - Dissolved on  8 September 2010",
+              "links": {
+                "self": "/company/00754578"
+              },
+              "company_number": "00754578",
+              "title": "COMPANY NUMBER 00754578 FORMERLY COLEBRAND LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "TENON RECOVERY",
+                "postal_code": "RG1 2AN",
+                "locality": "Reading",
+                "address_line_1": "The Aquarium Building 1-7 King Street"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2010-09-08"
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "Vodafone House, The Connection, Newbury, Berkshire, RG14 2FN",
+              "date_of_creation": "2000-04-14",
+              "description": "03973427 - Incorporated on 14 April 2000",
+              "links": {
+                "self": "/company/03973427"
+              },
+              "company_number": "03973427",
+              "title": "VODAFONE OCEANIA LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Vodafone House",
+                "postal_code": "RG14 2FN",
+                "locality": "Newbury",
+                "region": "Berkshire",
+                "address_line_1": "The Connection"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Vodafone House, The Connection, Newbury, Berkshire, RG14 2FN",
+              "date_of_creation": "1966-03-23",
+              "description": "00874784 - Dissolved on 29 October 2019",
+              "links": {
+                "self": "/company/00874784"
+              },
+              "company_number": "00874784",
+              "title": "VODAFONE UK INVESTMENTS LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Vodafone House",
+                "postal_code": "RG14 2FN",
+                "locality": "Newbury",
+                "region": "Berkshire",
+                "address_line_1": "The Connection"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2019-10-29"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/Search\\?Query=COMPANYNAME"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "page_number": 1,
+          "kind": "search#companies",
+          "total_results": 20,
+          "items": [
+            {
+              "company_status": "active",
+              "address_snippet": "12 Martins Lane, Tiverton, England, EX16 6QX",
+              "date_of_creation": "2022-07-14",
+              "description": "14235668 - Incorporated on 14 July 2022",
+              "links": {
+                "self": "/company/14235668"
+              },
+              "company_number": "14235668",
+              "title": "COMPANY NAME LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "12",
+                "postal_code": "EX16 6QX",
+                "country": "England",
+                "locality": "Tiverton",
+                "address_line_1": "Martins Lane"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "128-130 Ladypool Road, Birmingham, England, B12 8JA",
+              "date_of_creation": "2019-10-04",
+              "description": "12244545 - Incorporated on  4 October 2019",
+              "links": {
+                "self": "/company/12244545"
+              },
+              "company_number": "12244545",
+              "title": "COMPANY NAME: ACTIVELY ENGAGED CONSULTANCY LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "128-130",
+                "postal_code": "B12 8JA",
+                "country": "England",
+                "locality": "Birmingham",
+                "address_line_1": "Ladypool Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "Jobcentre Plus, Cornwall Street, Manchester, United Kingdom, M11 2WR",
+              "date_of_creation": "2023-08-17",
+              "description": "15079023 - Incorporated on 17 August 2023",
+              "links": {
+                "self": "/company/15079023"
+              },
+              "company_number": "15079023",
+              "title": "COMPANY NAME: BUSINESS CENTRE PLUS LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Jobcentre Plus",
+                "postal_code": "M11 2WR",
+                "country": "United Kingdom",
+                "locality": "Manchester",
+                "address_line_1": "Cornwall Street"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "57 Durning Road, London, England, SE19 1JP",
+              "date_of_creation": "2021-05-18",
+              "description": "13405802 - Incorporated on 18 May 2021",
+              "links": {
+                "self": "/company/13405802"
+              },
+              "company_number": "13405802",
+              "title": "COMPANY NAMED LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "57",
+                "postal_code": "SE19 1JP",
+                "country": "England",
+                "locality": "London",
+                "address_line_1": "Durning Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Kensmead, Mill Row, Rossendale, England, BB4 8FS",
+              "date_of_creation": "2022-10-04",
+              "description": "14396548 - Dissolved on 28 March 2023",
+              "links": {
+                "self": "/company/14396548"
+              },
+              "company_number": "14396548",
+              "title": "COMPANY NAME GAMES LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Kensmead",
+                "postal_code": "BB4 8FS",
+                "country": "England",
+                "locality": "Rossendale",
+                "address_line_1": "Mill Row"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2023-03-28"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "1 Royal James House, Admiralty Road, Portsmouth, England, PO1 3GS",
+              "date_of_creation": "2021-04-03",
+              "description": "13313243 - Dissolved on 18 July 2023",
+              "links": {
+                "self": "/company/13313243"
+              },
+              "company_number": "13313243",
+              "title": "COMPANY NAME GOES HERE LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "1",
+                "postal_code": "PO1 3GS",
+                "country": "England",
+                "locality": "Portsmouth",
+                "address_line_1": "Royal James House",
+                "address_line_2": "Admiralty Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2023-07-18"
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "15 Spring Chase, Wivenhoe, Colchester, England, CO7 9QP",
+              "date_of_creation": "2022-08-14",
+              "description": "14294740 - Incorporated on 14 August 2022",
+              "links": {
+                "self": "/company/14294740"
+              },
+              "company_number": "14294740",
+              "title": "COMPANY NAME HERE LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "15",
+                "postal_code": "CO7 9QP",
+                "country": "England",
+                "locality": "Colchester",
+                "address_line_1": "Spring Chase",
+                "address_line_2": "Wivenhoe"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "2 St Marys Road, Tonbridge, Kent, England, TN9 2LB",
+              "date_of_creation": "2022-10-05",
+              "description": "14400313 - Dissolved on 24 January 2023",
+              "links": {
+                "self": "/company/14400313"
+              },
+              "company_number": "14400313",
+              "title": "COMPANY NAME WEST KENT BREAST ONCOLOGY LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "2",
+                "postal_code": "TN9 2LB",
+                "country": "England",
+                "locality": "Tonbridge",
+                "region": "Kent",
+                "address_line_1": "St Marys Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2023-01-24"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "39 Suffield Road, London, England, N15 5JX",
+              "date_of_creation": "2019-09-12",
+              "description": "12202929 - Dissolved on 26 April 2022",
+              "links": {
+                "self": "/company/12202929"
+              },
+              "company_number": "12202929",
+              "title": "COMPANY NAME LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "39",
+                "postal_code": "N15 5JX",
+                "country": "England",
+                "locality": "London",
+                "address_line_1": "Suffield Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2022-04-26"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "13 The Hawthorns, Maple Cross, Rickmansworth, England, WD3 9UH",
+              "date_of_creation": "2020-07-24",
+              "description": "12765566 - Dissolved on  4 January 2022",
+              "links": {
+                "self": "/company/12765566"
+              },
+              "company_number": "12765566",
+              "title": "COMPANY NAME HERE LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "13",
+                "postal_code": "WD3 9UH",
+                "country": "England",
+                "locality": "Rickmansworth",
+                "address_line_1": "The Hawthorns",
+                "address_line_2": "Maple Cross"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2022-01-04"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "49  Station Road Station Road, Polegate, East Sussex, United Kingdom, BN26 6EA",
+              "date_of_creation": "2015-12-09",
+              "description": "09908705 - Dissolved on 25 June 2019",
+              "links": {
+                "self": "/company/09908705"
+              },
+              "company_number": "09908705",
+              "title": "COMPANY NAME LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "49 ",
+                "postal_code": "BN26 6EA",
+                "country": "United Kingdom",
+                "locality": "Polegate",
+                "region": "East Sussex",
+                "address_line_1": "Station Road Station Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2019-06-25"
+            },
+            {
+              "company_status": "active",
+              "address_snippet": "18 Heath Court, Heath Court, Leighton Buzzard, LU7 3JR",
+              "date_of_creation": "2012-03-28",
+              "description": "08009585 - Incorporated on 28 March 2012",
+              "links": {
+                "self": "/company/08009585"
+              },
+              "company_number": "08009585",
+              "title": "PHILIP ROBINSON LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "18",
+                "postal_code": "LU7 3JR",
+                "locality": "Leighton Buzzard",
+                "address_line_1": "Heath Court",
+                "address_line_2": "Heath Court"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "incorporated-on"
+              ]
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "G101 Gilbert Scott House Scott Avenue, London, United Kingdom, SW15 3SG",
+              "date_of_creation": "2015-01-23",
+              "description": "09404313 - Dissolved on 24 May 2016",
+              "links": {
+                "self": "/company/09404313"
+              },
+              "company_number": "09404313",
+              "title": "COMPANY NAME CHECKER LTD.",
+              "company_type": "ltd",
+              "address": {
+                "premises": "G101 Gilbert Scott House",
+                "postal_code": "SW15 3SG",
+                "country": "United Kingdom",
+                "locality": "London",
+                "address_line_1": "Scott Avenue"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2016-05-24"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Blackburn Technology Management Center Office R37 Challenge Way, Blackburn, England, BB1 5QB",
+              "date_of_creation": "2014-11-24",
+              "description": "09324528 - Dissolved on 12 November 2019",
+              "links": {
+                "self": "/company/09324528"
+              },
+              "company_number": "09324528",
+              "title": "GOLDCHILD LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Blackburn Technology Management Center Office R37",
+                "postal_code": "BB1 5QB",
+                "country": "England",
+                "locality": "Blackburn",
+                "address_line_1": "Challenge Way"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2019-11-12"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Time & Life Building/1 Bruton Street, London, United Kingdom, W1J 6TL",
+              "date_of_creation": "2014-08-19",
+              "description": "09181116 - Dissolved on 23 December 2014",
+              "links": {
+                "self": "/company/09181116"
+              },
+              "company_number": "09181116",
+              "title": "COMPANY NAME LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Time & Life Building/1",
+                "postal_code": "W1J 6TL",
+                "country": "United Kingdom",
+                "locality": "London",
+                "address_line_1": "Bruton Street"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2014-12-23"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "5  Yeomans Court, Ware Road, Hertford, Herts, SG13 7HJ",
+              "date_of_creation": "2011-07-06",
+              "description": "07695880 - Dissolved on  1 December 2015",
+              "links": {
+                "self": "/company/07695880"
+              },
+              "company_number": "07695880",
+              "title": "ESSEX MARQUEE LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "5 ",
+                "postal_code": "SG13 7HJ",
+                "locality": "Hertford",
+                "region": "Herts",
+                "address_line_1": "Yeomans Court",
+                "address_line_2": "Ware Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2015-12-01"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "12  Cervia Way, Gravesend, England, DA12 4JY",
+              "date_of_creation": "2012-10-25",
+              "description": "08267894 - Dissolved on 10 June 2014",
+              "links": {
+                "self": "/company/08267894"
+              },
+              "company_number": "08267894",
+              "title": "COMPANY NAME DIRECT.COM LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "12 ",
+                "postal_code": "DA12 4JY",
+                "country": "England",
+                "locality": "Gravesend",
+                "address_line_1": "Cervia Way"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2014-06-10"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "3  Brook Green Flats, Dunsany Road, London, United Kingdom, W14 0JR",
+              "date_of_creation": "2012-07-03",
+              "description": "08128271 - Dissolved on 11 February 2014",
+              "links": {
+                "self": "/company/08128271"
+              },
+              "company_number": "08128271",
+              "title": "COMPANY NAME:ARYAN PROPERTIES LTD",
+              "company_type": "ltd",
+              "address": {
+                "premises": "3 ",
+                "postal_code": "W14 0JR",
+                "country": "United Kingdom",
+                "locality": "London",
+                "address_line_1": "Brook Green Flats",
+                "address_line_2": "Dunsany Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2014-02-11"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "Unit 3  Leviss Industrial Estate, Station Road, Birmingham, United Kingdom, B33 9AE",
+              "date_of_creation": "2011-05-23",
+              "description": "07643808 - Dissolved on  8 January 2013",
+              "links": {
+                "self": "/company/07643808"
+              },
+              "company_number": "07643808",
+              "title": "COMPANY NAME:XPRESS CARGO UK LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "Unit 3 ",
+                "postal_code": "B33 9AE",
+                "country": "United Kingdom",
+                "locality": "Birmingham",
+                "address_line_1": "Leviss Industrial Estate",
+                "address_line_2": "Station Road"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2013-01-08"
+            },
+            {
+              "company_status": "dissolved",
+              "address_snippet": "11  Danesway, Prestwich, Manchester, M25 0ET",
+              "date_of_creation": "2012-02-07",
+              "description": "07938678 - Dissolved on  5 July 2016",
+              "links": {
+                "self": "/company/07938678"
+              },
+              "company_number": "07938678",
+              "title": "BLOCK MEDICAL SERVICES LIMITED",
+              "company_type": "ltd",
+              "address": {
+                "premises": "11 ",
+                "postal_code": "M25 0ET",
+                "locality": "Manchester",
+                "address_line_1": "Danesway",
+                "address_line_2": "Prestwich"
+              },
+              "kind": "searchresults#company",
+              "description_identifier": [
+                "dissolved-on"
+              ],
+              "date_of_cessation": "2016-07-05"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
